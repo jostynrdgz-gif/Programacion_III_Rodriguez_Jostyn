@@ -6,11 +6,11 @@ Repositorio oficial para las actividades, laboratorios, proyectos y apuntes prá
 
 ## 👤 Información del Autor
 
-- **Autor:** [Tu Nombre y Apellido]
+- **Autor:** Jostyn Rodriguez
 - **Materia:** Programación III
-- **Carrera:** [Tu Carrera / Ingeniería en Sistemas / Informática]
-- **Institución:** [Nombre de la Universidad / Instituto]
-- **Contacto:** [tu-email@ejemplo.com] | [GitHub](https://github.com/tu-usuario)
+- **Carrera:** Desarrollo de Software
+- **Institución:** Universidad UTE
+- **Contacto:** jostynrodriguez466@gmail.com | GitHub https://github.com/jostynrdgz-gif
 
 ---
 
@@ -55,7 +55,7 @@ Una biblioteca declarativa y basada en componentes para **JavaScript/TypeScript*
 
 Para ejecutar los proyectos de este repositorio es recomendable contar con:
 
-- [Node.js](https://nodejs.org/) (versión LTS recomendada)
-- [Git](https://git-scm.com/)
+- [Node.js]https://nodejs.org/
+- [Git]https://git-scm.com/
 - Gestor de paquetes: `npm`, `yarn` o `pnpm`
-- [Visual Studio Code](https://code.visualstudio.com/) (o tu editor preferido)
+- [Visual Studio Code]https://code.visualstudio.com/
