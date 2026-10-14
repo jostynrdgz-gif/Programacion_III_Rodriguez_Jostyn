@@ -3,14 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>Document</title>
 </head>
 <body>
-    <form action="/registro">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre"
-        placeholder="Ingrese su nombre" required>
+    <form action="/registro" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej: Juan">
+                </td>
+            
+            
+                <td>
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ej: Pérez">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password">
+                </td>
+            
+            
+                <td>
+                    <label for="password_confirm">Confirmar Password</label><br>
+                    <input type="password" name="password_confirm" id="password_confirm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="edad">edad</label><br>
+                    <input type="number" name="edad" id="edad">
+                </td>
+            
+            
+                <td>
+                    <label for="nivel">nivel de la fuerza</label><br>
+                    <input type="number" name="nivel" id="nivel" min="10" max="100" value="50" step="5">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p> Selecciona tu bando</p>
+                    <input type="radio" name="bando" id="jedi" value="jedi">
+                    <label for="jedi">Jedi</label><br>
+                    <input type="radio" name="bando" id="sith" value="sith">
+                    <label for="sith">Sith</label>
+                </td>
+                <td>
+                    <p>Selecciona tus habilidades</p><br>
+                    <input type="checkbox" id="fuerza" name="habilidades" value="fuerza">
+                    <label for="fuerza">Uso de la fuerza</label><br>
+
+                    <input type="checkbox" id="sable" name="habilidades" value="sable">
+                    <label for="sable">Uso del Sable</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="planeta">Planeta de origen</label><br>
+                    <select name="planeta" id="planeta" required>
+                        <option value="tatooine">Tatooine</option>
+                        <option value="naboo">Naboo</option>
+                        <option value="coruscant">Coruscant</option>
+                    
+                    </select>
+                </td>
+                <td>
+
+                    <label for="droide">Droide</label><br>
+                    <select name="droide" id="droide" required>
+                        <option value="r2d2">R2-D2</option>
+                        <option value="c3po">C-3PO</option>
+
+                    </select>
+                </td>
+            </tr>
+
+                <td>
+                    <fieldset>
+                        <legend>Datos generales</legend>
+                        <label for="misiones">Misiones</label><br>
+                        <input type="text" name="misiones" id="misiones">
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+
         <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
     </form>
 </body>
 </html>
