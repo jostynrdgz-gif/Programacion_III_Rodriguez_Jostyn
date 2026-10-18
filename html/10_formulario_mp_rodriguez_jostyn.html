@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOUNDSHOEZ - Registro </title>
+</head>
+<body>
+    <form action="/registro" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej: Jostyn">
+                </td>
+                <td>
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ej: Rodríguez">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Contraseña</label><br>
+                    <input type="password" name="password" id="password">
+                </td>
+                <td>
+                    <label for="password_confirm">Confirmar Contraseña</label><br>
+                    <input type="password" name="password_confirm" id="password_confirm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="talla">Talla</label><br>
+                    <input type="number" name="talla" id="talla" min="36" max="46" value="40" step="0.5">
+                </td>
+                <td>
+                    <label for="cantidad">Pares a cotizar</label><br>
+                    <input type="number" name="cantidad" id="cantidad" min="1" max="10" value="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tipo de calzado</p>
+                    <input type="radio" name="tipo_zapato" id="skate" value="skate">
+                    <label for="skate">Skate </label><br>
+
+                    <input type="radio" name="tipo_zapato" id="casual" value="casual">
+                    <label for="casual">Casual </label><br>
+
+                    <input type="radio" name="tipo_zapato" id="Urbano" value="urbano">
+                    <label for="Urbano">Urbano </label><br>
+
+                    <input type="radio" name="tipo_zapato" id="deportivo" value="deportivo">
+                    <label for="deportivo">Deportivo</label>
+                </td>
+                <td>
+                    <p>Estilos que te agradan</p>
+                    <input type="checkbox" id="Chunky" name="estilos" value="y2k">
+                    <label for="y2k"> Chunky</label><br>
+
+                    <input type="checkbox" id="retro" name="estilos" value="retro">
+                    <label for="retro">Retro Clásico</label><br>
+
+                    <input type="checkbox" id="minimal" name="estilos" value="minimal">
+                    <label for="minimal">Minimalista </label><br>
+
+                    <input type="checkbox" id="streetwear" name="estilos" value="streetwear">
+                    <label for="streetwear">Streetwear </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="marca">Marca preferida</label><br>
+                    <select name="marca" id="marca" required>
+                        <option value="dc">DC Shoes</option>
+                        <option value="osiris">Osiris</option>
+                        <option value="dvs">DVS</option>
+                        <option value="es">éS Footwear</option>
+                        <option value="adidas">Adidas</option>
+                        <option value="nike">Nike SB</option>
+                        <option value="newbalance">New Balance</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="suela">Tipo de suela</label><br>
+                    <select name="suela" id="suela" required>
+                        <option value="vulcanizada">Vulcanizada </option>
+                        <option value="cupsole">Cupsole </option>
+                        <option value="foam"> Confort </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <label for="busqueda">Modelo especifico o colorway</label><br>
+                        <input type="text" name="busqueda" id="busqueda" placeholder="Ej: forum low">
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
