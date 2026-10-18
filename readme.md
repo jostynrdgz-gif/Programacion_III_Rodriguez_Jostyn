@@ -6,7 +6,7 @@ Repositorio oficial para las actividades, laboratorios, proyectos y apuntes prá
 
 ## 👤 Información del Autor
 
-- **Autor:** Jostyn Rodriguez
+- **Autor:** Jostyn Ariel Rodriguez Allaica
 - **Materia:** Programación III
 - **Carrera:** Desarrollo de Software
 - **Institución:** Universidad UTE
