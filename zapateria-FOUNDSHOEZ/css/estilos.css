@@ -1,32 +1,29 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #0f172a; /* Azul oscuro pizarra */
-    color: #f1f5f9;            /* Texto claro legible */
+    background-color: #0f172a; 
+    color: #f1f5f9;           
     margin: 20px;
 }
 
-/* Encabezados y títulos */
 #titulo-principal {
-    color: #ff5722;            /* Naranja vibrante streetwear */
+    color: #ff5722;       
     text-align: center;
     letter-spacing: 2px;
 }
 
 #sub-titulo {
-    color: #38bdf8;            /* Azul celeste eléctrico */
+    color: #38bdf8;          
 }
 
 h2 {
-    color: #fb923c;            /* Tono melocotón / naranja suave */
+    color: #fb923c;            
     border-bottom: 2px solid #334155;
     padding-bottom: 4px;
 }
 
-/* Barra de navegación */
 #menu {
     text-align: center;
-    background-color: #1e293b; /* Contenedor oscuro */
+    background-color: #1e293b; 
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #334155;
@@ -40,21 +37,19 @@ h2 {
 }
 
 #menu a:hover {
-    color: #ff5722;            /* Resalta al pasar el cursor */
+    color: #ff5722;        
 }
 
-/* Clases para marcas o estilos */
 .skate-core {
-    color: #ef4444;            /* Rojo intenso */
+    color: #ef4444;        
     font-weight: bold;
 }
 
 .streetwear {
-    color: #a855f7;            /* Púrpura urbano */
+    color: #a855f7;      
     font-weight: bold;
 }
 
-/* Tablas */
 table {
     border-collapse: collapse;
     background-color: #1e293b;
@@ -70,13 +65,12 @@ th, td {
 }
 
 th {
-    background-color: #ff5722; /* Encabezado naranja */
+    background-color: #ff5722;
     color: #ffffff;
 }
 
-/* Formularios */
 fieldset {
-    border: 2px solid #ff5722; /* Borde con acento de color */
+    border: 2px solid #ff5722;
     background-color: #1e293b;
     padding: 16px;
     margin-bottom: 15px;
@@ -85,7 +79,7 @@ fieldset {
 
 legend {
     font-weight: bold;
-    color: #38bdf8;            /* Título celeste */
+    color: #38bdf8;
     padding: 0 8px;
 }
 
@@ -115,12 +109,11 @@ button {
 }
 
 button:hover {
-    background-color: #e64a19; /* Naranja más oscuro al presionar */
+    background-color: #e64a19;
 }
 
-/* Contenido multimedia e imágenes */
 img {
-    border: 2px solid #38bdf8; /* Marco azul a las fotos */
+    border: 2px solid #38bdf8;
     border-radius: 6px;
     margin: 8px;
 }
@@ -131,7 +124,6 @@ video, audio {
     border-radius: 6px;
 }
 
-/* Pie de página */
 footer {
     text-align: center;
     color: #94a3b8;
