@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOUNDSHOEZ - Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-principal">Crear Cuenta</h1>
+        <p>Regístrate en FOUNDSHOEZ y recibe tus primeros 100 puntos</p>
+    </header>
+
+    <nav id="menu" title="Menú principal">
+        <a href="index.html">Inicio</a>
+        <a href="siluetas.html">Siluetas</a>
+        <a href="misiones.html">Puntos</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="registro.html">Registro</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <form action="#" method="post" id="formulario-registro">
+
+            <fieldset>
+                <legend>Datos de Usuario (+100 Puntos)</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Jostyn" required>
+                </p>
+
+                <p>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ej: Rodríguez" required>
+                </p>
+
+                <p>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="usuario@correo.com" required>
+                </p>
+
+                <p>
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password" minlength="8" placeholder="Mínimo 8 caracteres" required>
+                </p>
+
+                <p>
+                    <label for="confirm-password">Confirmar contraseña:</label><br>
+                    <input type="password" id="confirm-password" name="confirm_password" minlength="8" placeholder="Repite la contraseña" required>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Preferencias de Calzado</legend>
+
+                <p>
+                    <label for="talla">Talla habitual (EUR):</label><br>
+                    <input type="number" id="talla" name="talla" min="36" max="46" value="40" step="0.5" required>
+                </p>
+
+                <p>
+                    <label for="marca-favorita">Marca favorita:</label><br>
+                    <select id="marca-favorita" name="marca_favorita" required>
+                        <option value="">-- Elige una marca --</option>
+                        <option value="dc">DC Shoes</option>
+                        <option value="osiris">Osiris</option>
+                        <option value="dvs">DVS</option>
+                        <option value="es">éS Footwear</option>
+                        <option value="adidas">Adidas Originals</option>
+                        <option value="nike">Nike SB</option>
+                        <option value="newbalance">New Balance</option>
+                    </select>
+                </p>
+
+                <p>Estilo principal que usas:</p>
+                <p>
+                    <input type="radio" id="estilo-skate" name="estilo_preferido" value="skate" required>
+                    <label for="estilo-skate">Skate</label><br>
+
+                    <input type="radio" id="estilo-casual" name="estilo_preferido" value="casual">
+                    <label for="estilo-casual">Casual </label><br>
+                    
+                    <input type="radio" id="estilo-streetwear" name="estilo_preferido" value="streetwear">
+                    <label for="estilo-streetwear">Streetwear</label><br>
+
+                    <input type="radio" id="estilo-runner" name="estilo_preferido" value="runner">
+                    <label for="estilo-runner">Runner</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <p>
+                <button type="submit">Crear cuenta</button>
+                <button type="reset">Borrar datos</button>
+            </p>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            <small>FOUNDSHOEZ 2026 - Rodriguez Jostyn</small>
+        </p>
+        <p>Contacto: info@foundshoez.com</p>
+    </footer>
+
+</body>
+</html>

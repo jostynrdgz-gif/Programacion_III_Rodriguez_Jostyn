@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOUNDSHOEZ - Misiones</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-principal">Misiones y Puntos</h1>
+        <p>Cumple retos sencillos y gana puntos para tu próxima compra</p>
+    </header>
+
+    <nav id="menu" title="Menú principal">
+        <a href="index.html">Inicio</a>
+        <a href="siluetas.html">Siluetas</a>
+        <a href="misiones.html">Puntos</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="registro.html">Registro</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <form action="#" method="post">
+
+            <h2>Registro de Actividad</h2>
+
+            <p>
+                <label for="usuario">Nombre de usuario:</label><br>
+                <input type="text" id="usuario" name="usuario" placeholder="Tu usuario" required>
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de la misión:</label><br>
+                <input type="date" id="fecha" name="fecha" required>
+            </p>
+
+            <p>Selecciona la misión completada:</p>
+            <p>
+                <input type="radio" id="mision1" name="mision" value="foto" required>
+                <label for="mision1">Subir foto usando zapatillas de la tienda (+100 pts)</label><br>
+
+                <input type="radio" id="mision2" name="mision" value="visita">
+                <label for="mision2">Visitar la tienda física (+50 pts)</label><br>
+
+                <input type="radio" id="mision3" name="mision" value="review">
+                <label for="mision3">Dejar una reseña sobre tu compra (+80 pts)</label>
+            </p>
+
+            <p>
+                <label for="compras">Cantidad de pares comprados este mes:</label><br>
+                <input type="number" id="compras" name="compras" min="0" max="5" value="1">
+            </p>
+
+            <p>
+                <label for="cupon">Cupón que deseas reclamar:</label><br>
+                <select id="cupon" name="cupon" required>
+                    <option value="">-- Elige un cupón --</option>
+                    <option value="desc_5">5% de descuento (150 puntos)</option>
+                    <option value="desc_10">10% de descuento (300 puntos)</option>
+                    <option value="cordones">Cordones de regalo (100 puntos)</option>
+                </select>
+            </p>
+
+            <p>
+                <button type="submit">Enviar misión</button>
+                <button type="reset">Borrar</button>
+            </p>
+
+        </form>
+    </main>
+
+    <hr>
+</body>
+</html>
