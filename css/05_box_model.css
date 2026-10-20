@@ -1,7 +1,23 @@
-.caja1 {
-    width: 328px;
-    height: 198px;
-    border: 5px solid gold;
-    margin: 38px;
-    padding: 38px;
+.box_model {
+    width: 320px;
+    height: 190px;
+    background-color: white;
+    border: 5px solid rgb(245, 192, 255);
+    padding: 20px;
+    margin: 30px;
+}
+
+.tarjeta_jedi {
+    width: 320px;
+    height: 190px;
+    padding: 20px;
+    border: 5px solid rgb(63, 89, 207);
+    padding: 20px;
+    margin: 30px;
+    color:rgb(168, 82, 142);
+    background-color: rgb(180, 24, 24);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
