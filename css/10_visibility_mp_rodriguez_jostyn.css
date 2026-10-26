@@ -1,0 +1,85 @@
+.secreta {
+    visibility: hidden;
+}
+
+.caja {
+    position: static;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #334155;
+    border-radius: 6px;
+}
+
+.especial {
+    position: relative;
+    top: 15px;
+    left: 30px;
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.tarjeta-relativa {
+    position: relative;
+    width: 320px;
+    padding: 30px;
+    border: 2px solid #ff5722;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.etiqueta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ef4444;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.boton-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: #ff5722;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    padding: 15px 20px;
+    background-color: #0f172a;
+    border-bottom: 1px solid #334155;
+}
+
+nav a {
+    color: #38bdf8;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5722;
+}
+
+section {
+    min-height: 450px;
+    padding: 30px;
+    border-bottom: 1px solid #334155;
+}
