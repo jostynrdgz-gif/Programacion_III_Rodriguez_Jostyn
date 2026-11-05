@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion a JavaScript</title>
+    <script>
+        alert('corre, morty al inicio de la pagina');
+        console.log('saludo desde el inicio de la pagina');
+    </script>
+</head>
+<body>
+    <h1>Incluir Javascript en documento html</h1>
+    <h2>Modo Inline</h2>
+    <button onclick="alert('!corre, Morty¡')">
+        Mostrar mensaje
+    </button>
+    <input type="text" 
+        oninput="console.log(this.value)"
+        placeholder="ingrese texto">
+    <input type="text" 
+        onchange="console.log('valor final guardado:', this.value)"
+        placeholder="escribe y haz clic afuera">
+    <input type="text" 
+        onfocus="console.log('el usuario esta excribiendo aqui...')"
+        onblur="alert('alerta salieste del campo de texto')"
+        placeholder="Haz clic dentro y fuera">
+    <scrip src="01_incluir.js"></scrip>
+</body>
+</html>
