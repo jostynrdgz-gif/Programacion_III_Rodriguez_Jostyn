@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+    color: #f1f5f9;
+}
+
+.contenedor {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background-color: #1e293b;
+}
+
+.personaje {
+    padding: 20px;
+    background-color: #0f172a;
+    border: 2px solid #ff5722;
+}
+
+.consejo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.operaciones {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.operacion {
+    padding: 30px;
+    background-color: #0f172a;
+    border: 2px solid #38bdf8;
+    text-align: center;
+}
+
+.hangar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 130px 90px;
+    gap: 10px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.hangar div {
+    padding: 30px;
+    background-color: #0f172a;
+    border: 2px solid #38bdf8;
+    text-align: center;
+}
+
+.flota {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.flota div {
+    padding: 30px;
+    background-color: #0f172a;
+    border: 2px solid #ff5722;
+    text-align: center;
+}
+
+.consejo2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.naves {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.naves div {
+    padding: 30px;
+    background-color: #0f172a;
+    border: 2px solid #ef4444;
+    text-align: center;
+}
+
+.misiones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+    color: #f1f5f9;
+    background-color: #1e293b;
+}
+
+.misiones div {
+    padding: 30px;
+    background-color: #0f172a;
+    border: 2px solid #38bdf8;
+    text-align: center;
+}
+
+.destacada {
+    grid-column: span 2;
+    padding: 30px;
+    background-color: #1e293b !important;
+    border: 2px solid #ff5722;
+    text-align: center;
+}

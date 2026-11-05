@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #ff5722;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.cartel {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cartel h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.cartel h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.descripcion {
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.frase {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.firma {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skate-core {
+    background-color: #1e293b;
+    border-color: #ef4444;
+}
+
+.skate-core h2 {
+    color: #ff5722;
+    text-shadow: 2px 2px 5px #b91c1c;
+}
+
+.streetwear {
+    background-color: #1e243b;
+    border-color: #38bdf8;
+}
+
+.streetwear h2 {
+    color: #38bdf8;
+    text-shadow: 2px 2px 5px #0284c7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+}
