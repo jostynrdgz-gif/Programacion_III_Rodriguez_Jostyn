@@ -1,10 +1,11 @@
-import { createServer } from 'node:http';
-
-const server = createServer((req, res) => {
-    res.writeHead(200, {'Content-Type':'text/html; charset=utf8'});
-    res.end('<h1>Hola mundo</h1><p>esta es una pagina web en html</p>');
+// Ejercicio 03: servidor HTTP básico con Node.js.
+// Ejecutar en la terminal: node 03_server.js
+const http = require("node:http");
+const puerto = 3000;
+const servidor = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8" });
+  res.end("¡Hola! Este es mi servidor con Node.js.\n");
 });
-// starts a simple http server locally on port 3000
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Listening on 127.0.0.1:3000');
+servidor.listen(puerto, () => {
+  console.log(`Servidor en http://localhost:${puerto}`);
 });
