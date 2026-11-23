@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #172536;
+    margin: 30px;
+}
+main {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+h1 { color: #173d70; }
+button {
+    background-color: #173d70;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input { padding: 9px; margin: 8px 0; }
+p { line-height: 1.6; }
+.destacado { color: #173d70; font-weight: bold; }
