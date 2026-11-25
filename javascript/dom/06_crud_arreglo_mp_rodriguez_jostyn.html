@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOUNDSHOEZ - CRUD</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background: #f4f4f4; }
+        main { max-width: 800px; margin: auto; background: white; padding: 25px; }
+        input, button { padding: 8px; margin: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #222; color: white; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>FOUNDSHOEZ</h1>
+        <h2>Inventario de zapatos</h2>
+        <form id="formulario">
+            <input id="nombre" placeholder="Modelo" required>
+            <input id="precio" type="number" min="0.01" step="0.01" placeholder="Precio" required>
+            <input id="stock" type="number" min="0" step="1" placeholder="Stock" required>
+            <button id="guardar" type="submit">Agregar</button>
+            <button id="cancelar" type="button">Cancelar</button>
+        </form>
+        <p id="mensaje"></p>
+        <table>
+            <thead><tr><th>Modelo</th><th>Precio</th><th>Stock</th><th>Acciones</th></tr></thead>
+            <tbody id="lista"></tbody>
+        </table>
+    </main>
+    <script src="06_crud_arreglo_mp_rodriguez_jostyn.js"></script>
+</body>
+</html>
